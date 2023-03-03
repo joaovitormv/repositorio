@@ -1,0 +1,11 @@
+h1{
+    color: cyan;
+}
+
+h1#page1{
+    color:darkgreen;
+}
+
+h1.page2{
+    color:indigo;
+}
