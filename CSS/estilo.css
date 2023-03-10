@@ -1,5 +1,8 @@
 h1{
-    color: cyan;
+    color: red;
+    font-size: 60px;
+    text-align: center;
+    text-transform: uppercase;
 }
 
 h1#page1{
@@ -8,4 +11,22 @@ h1#page1{
 
 h1.page2{
     color:indigo;
+}
+
+h2{
+    border-right: 0.5rem double blue;
+    text-align: right;
+    padding: 0.5rem;
+}
+
+h5{
+    display:none;
+}
+
+body ul li{
+    border: 0.1rem solid gold;
+}
+
+p{
+    text-indent: 0.5rem;
 }
