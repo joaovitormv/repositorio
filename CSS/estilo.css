@@ -29,4 +29,84 @@ body ul li{
 
 p{
     text-indent: 0.5rem;
+    text-decoration-line: underline;
 }
+
+p.maiusculo{
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 0.5rem;
+    line height: 1.5rem;
+    word-spacing: 1rem;
+    font: bold 1.5rem monospace;
+    text-shadow: 0.2rem 0.2rem 0.3rem;
+
+}
+
+body{
+background-color: white;
+
+}
+
+a:link, a:active{
+    color:cyan
+
+}
+
+a:hover{
+    color:darkcyan;
+
+}
+
+a:visited{
+    color:lightcyan;
+
+}
+
+footer{
+    clear:both;
+    background-color: yellow;
+    height: 3rem;
+    text-align: center;
+}
+
+div{
+    position:fixed;
+    right: 0;
+    bottom: 0;   
+    display: inline;
+    color:black;
+    padding: 0.2rem;
+    font-size:2rem;
+}
+
+img{
+    width: 20rem;
+}
+
+section img{
+    float:left;
+
+}
+
+main.grid{
+    display:grid;
+    gap:2rem;
+    grid-template-columns: auto auto auto;
+
+
+}
+
+main.flexbox{
+    display:flex;
+    height:80vh;
+    justify-content: center;
+    align-items: center;
+}
+
+main.flexbox article{
+    background-color: red;
+    margin: 1rem;
+    padding: 2rem;
+}
+
